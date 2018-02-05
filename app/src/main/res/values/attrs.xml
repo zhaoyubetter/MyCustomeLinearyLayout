@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--mylinearlayout-->
+    <declare-styleable name="MyLinearLayout">
+
+        <attr name="orientation">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+
+        <attr name="gravity">
+            <flag name="left" value="3"/>
+            <flag name="top" value="48"/>
+            <flag name="right" value="5"/>
+            <flag name="bottom" value="80"/>
+            <flag name="center_vertical" value="16"/>
+            <flag name="fill_vertical" value="112"/>
+            <flag name="center_horizontal" value="1"/>
+            <flag name="fill_horizontal" value="7"/>
+            <flag name="center" value="17"/>
+        </attr>
+
+        <attr name="layout_gravity">
+            <flag name="left" value="3"/>
+            <flag name="top" value="48"/>
+            <flag name="right" value="5"/>
+            <flag name="bottom" value="80"/>
+            <flag name="center_vertical" value="16"/>
+            <flag name="fill_vertical" value="112"/>
+            <flag name="center_horizontal" value="1"/>
+            <flag name="fill_horizontal" value="7"/>
+            <flag name="center" value="17"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="SeekLayout">
+        <attr name="sl_max" format="integer" />
+        <attr name="sl_info" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="CheckLayout">
+        <attr name="cl_items" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="RadioLayout">
+        <attr name="rl_items" format="reference" />
+    </declare-styleable>
+</resources>
